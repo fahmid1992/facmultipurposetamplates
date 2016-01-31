@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>fac</title><!--[SET YOUR TITELE]-->
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"><!--[BOOTSTARP]-->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"><!--[FONT AWESOME]-->
+        <link href="style.css" rel="stylesheet"><!--[MAIN CSS]-->
+        <link href="css/responsive.css" rel="stylesheet"><!--[RESPONSIVE CSS]-->
+        <script src="js/snap.svg-min.js"></script><!--[Protfolio SVG EFFECT JS]-->
+		<link href='https://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'><!--[FONT HEADER]-->
+		<link rel="stylesheet" href="css/animate.css"><!--[WOW CSS FOR ANIMATION]-->
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+       
+    </head>
+    <body>
+        
+		<div id="preloader"><!--[PRELOADER]-->
+		   <div class="preloader_spinner"></div>
+		</div>
+		 <div class="homepage " id="homepage" ><!--[START OF HOME PAGE]-->
+		   
+			 <div class="homepage_upper">
+			    <div class="container">
+				  <div class="row">
+				    <div class="col-md-4">
+					   <div class="logo">
+						    <a href=""><img class="logo_image wow tada" src="images/logo.png" alt=""></a><!--[CHANGE LOGO]-->
+						</div>
+					</div>
+					<div class="col-md-8 wow fadeInDownBig">
+					   <div class="mainmenu">
+							<div class="navbar-header">
+							   <button type="buttton" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								  <span class="sr-only">Toggle navigation</span> 
+								  <span class="icon-bar"></span> 
+								  <span class="icon-bar"></span> 
+								  <span class="icon-bar"></span>
+							   </button>
+							</div>
+							 <div class="navbar-collapse collapse">	 
+								 <ul class="nav navbar-nav">
+									 <li class="active smooth-menu"><a href="#homepage">Home</a></li>
+									 <li class="smooth-menu"><a href="#aboutuspage">About us</a></li>
+									 <li class="smooth-menu"><a href="#ourservicespage">Our Services</a></li>
+									 <li class="smooth-menu"><a href="#protfolio_page_agea"> Protfolio </a></li>
+									 <li class="smooth-menu"><a href="#reservation_area">Reservation</a></li>
+									 <li class="smooth-menu"><a href="#contact_uspage">Contact us</a></li>
+								 </ul>
+							</div>
+							
+							 <div class="social_links">
+								  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+								  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+								  <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								  <li><a href=""><i class="fa fa-youtube"></i></a></li>
+							</div>
+						</div>
+					</div>
+				  </div>
+				</div>
+			 </div>
+			 
+			 
+				<div id="top-slide-carousel" class="carousel slide" data-ride="carousel">
+					 <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						   <div class="homepage_content">
+								<div data-velocity="-.3" class="homepage_bg slide-bg-1"></div><!--[BACKGROUND OF HOME PAGE]-->
+								<div class="container">
+									<div class="row">
+										 <div class="col-md-12 text-center">
+											<div class="homepage_text_area_title">
+											   <h2 class="wow bounceInUp">Lorem Ipsum is simply<br/><!--[CHANGE THE MAINTEXT OF HOME PAGE]-->
+												text of the printing</h2>
+												<a href="#contact_uspage" class="btn_filled wow bounceInLeft ">ORDER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+												<a href="#ourservicespage" class="btn_filled wow bounceInRight">DISCOVER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+											</div>
+										</div>
+									</div>
+							   </div>
+						   </div>
+						</div>
+						<div class="item">
+						   <div class="homepage_content">
+								<div data-velocity=".5" class="homepage_bg slide-bg-2"></div><!--[BACKGROUND OF HOME PAGE]-->
+								<div class="container">
+									<div class="row">
+										 <div class="col-md-12 text-center">
+											<div class="homepage_text_area_title">
+											   <h2 class="wow bounceInUp">Lorem Ipsum is simply<br/><!--[CHANGE THE MAINTEXT OF HOME PAGE]-->
+												text of the printing</h2>
+												<a href="#contact_uspage" class="btn_filled wow bounceInLeft">ORDER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+												<a href="#ourservicespage" class="btn_filled wow bounceInRight">DISCOVER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+											</div>
+										</div>
+									</div>
+							   </div>
+						   </div>
+						</div>   
+						<div class="item">   
+						   <div class="homepage_content">
+								<div data-velocity=".5" class="homepage_bg slide-bg-3"></div><!--[BACKGROUND OF HOME PAGE]-->
+								<div class="container">
+									<div class="row">
+										 <div class="col-md-12 text-center">
+											<div class="homepage_text_area_title">
+											   <h2 class="wow bounceInUp">Lorem Ipsum is simply<br/><!--[CHANGE THE MAINTEXT OF HOME PAGE]-->
+												text of the printing</h2>
+												<a href="#contact_uspage" class="btn_filled wow bounceInLeft">ORDER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+												<a href="#ourservicespage" class="btn_filled wow bounceInRight">DISCOVER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+											</div>
+										</div>
+									</div>
+							   </div>
+						   </div>
+						</div> 
+						<div class="item"> 
+						   <div class="homepage_content">
+								<div data-velocity=".5" class="homepage_bg slide-bg-4"></div><!--[BACKGROUND OF HOME PAGE]-->
+								<div class="container">
+									<div class="row">
+										 <div class="col-md-12 text-center">
+											<div class="homepage_text_area_title">
+											   <h2 class="wow bounceInUp">Lorem Ipsum is simply<br/><!--[CHANGE THE MAINTEXT OF HOME PAGE]-->
+												text of the printing</h2>
+												<a href="#contact_uspage" class="btn_filled wow bounceInLeft">ORDER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+												<a href="#ourservicespage" class="btn_filled wow bounceInRight">DISCOVER</a><!--[CHANGE THE MENU OF HOME PAGE]-->
+											</div>
+										</div>
+									</div>
+							   </div>
+						   </div>
+	                    </div> 
+						
+					</div>
+	 
+					 <a class="left slide-control" href="#top-slide-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+					 <a class="right slide-control" href="#top-slide-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				</div>
+		</div><!--[END OF HOME PAGE]-->
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   <div class="aboutuspage section_padding " id="aboutuspage"><!--[START OF ABOUTUS PAGE]-->
+		        <div class="cotainer">
+					<div class="row">
+						<div class="page_title text-center col-sm-12 col-lg-12 col-md-12 wow flip  ">
+							<div class="page_main_title ">
+							   <h2>WE ARE HERE</h2>
+							</div>
+							<div class="page_subtitle  ">
+							   <span class="blue_text">Small</span> Studio With <span class="yellow_text">Big</span> Projecct
+							</div>
+						</div>
+						 <div class="aboutuspage_details_title text-center col-lg-12 col-md-12 col-sm-12 wow pulse "><!--[CHANGE BACKGROUND AND MIDDLE TITLE OF ABOUTUS PAGE]-->
+							 <h2> we are a xyz compzny based in uk in london. we are working for website development.<br/>
+								  we are pormissed to provide you the best service ever </h2>
+						 </div>
+				
+					    <div class="aboutuspage_details ">
+							 <div class="col-lg-4 col-md-4 col-sm-4 wow bounceInLeft " >
+								<h2 class="text-center">About Us</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+								containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							 </div>
+							 <div class="col-lg-4 col-md-4 col-sm-4 wow bounceInUp">
+								<h2 class="text-center">Our Mission</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+								containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							 </div>
+							 <div class="col-lg-4 col-md-4  col-sm-4 wow bounceInRight">
+								<h2 class="text-center">Our Vission</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+								containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							 </div>
+						</div>
+					</div>	 
+				</div>
+		    </div><!--[END OF ABOUTUS PAGE]-->
+		   
+		   
+		   
+		   
+		   <div class="ourservicespage section_padding" id="ourservicespage"><!--[START OF OURSERVICES PAGE]-->
+		       <div data-velocity="1"  class="ourservicespage_bg paralax_bg"></div>
+			   <div class="ourservices_page_first_area">
+					<div class="cotainer ">
+					   <div class="row">
+						   <div class="page_title_white text-center wow flip ">
+							 <div class="page_main_title_white col-md-12 ">
+								<h2>WE PROVIDES</h2>
+							 </div>
+							 <div class="page_subtitle_white col-md-12 ">
+								<span class="blue_text">Awesome </span> Experiences With <span class="yellow_text"> Regoinable </span>Cost
+							 </div>
+						 </div>
+					   </div>
+				   </div>
+			   </div>
+			   
+			   <div class="ourservices_page_second_area">
+		      	   <div class="cotainer ">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 wow bounceInLeft">
+					            <section id="grid" class="service_type"> <!--products and procing-->
+									<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+										<figure>
+											<img src="images/ourservicestype.jpg" />
+											<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+											<figcaption>
+												<h2>Graphics Design</h2>
+												<p>if your are looking </p>
+												<button class="product_pricetable" >
+												   <table border="2" cellpadding="20" cellspacing="2">
+													  <tr>
+														<th colspan="2">Product name</th>
+														
+													  </tr>
+												 
+													  <tr>
+														<th>Product name</th>
+														<th>Service price</th>
+													  </tr>
+													  <tr>
+														 <td>PSD DESIGN</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													   <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  
+												 </table>
+												</button>
+											</figcaption>
+										</figure>
+									</a>
+								</section> <!-- end of section-->
+							</div> <!-- end of col-md -4--> 
+                            <div class="col-md-4 col-sm-4 wow bounceInUp">
+					            <section id="grid" class="service_type"> <!--products and procing-->
+									<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+										<figure>
+											<img src="images/ourservicestype.jpg" />
+											<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+											<figcaption>
+												<h2>Web Design</h2>
+												<p>if your are looking </p>
+												<button class="product_pricetable">
+												   <table border="2" cellpadding="20" cellspacing="2">
+													  <tr>
+														<th colspan="2">Product name</th>
+														
+													  </tr>
+												 
+													  <tr>
+														<th>Product name</th>
+														<th>Service price</th>
+													  </tr>
+													  <tr>
+														 <td>PSD DESIGN</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													   <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  
+												 </table>
+												</button>
+											</figcaption>
+										</figure>
+									</a>
+								</section> <!-- end of section-->
+							</div> <!-- end of col-md -4-->
+                            <div class="col-md-4 col-sm-4 wow bounceInRight">
+					            <section id="grid" class="service_type"> <!--products and procing-->
+									<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+										<figure>
+											<img src="images/ourservicestype.jpg" />
+											<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+											<figcaption>
+												<h2>Web Development</h2>
+												<p>if your are looking </p>
+												<button class="product_pricetable">
+												 <table border="2" cellpadding="20" cellspacing="2">
+													  <tr>
+														<th colspan="2">Product name</th>
+														
+													  </tr>
+												 
+													  <tr>
+														<th>Product name</th>
+														<th>Service price</th>
+													  </tr>
+													  <tr>
+														 <td>PSD DESIGN</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													  <tr>
+														 <td>Logo Design</td>
+														 <td>100</td>
+													  </tr>
+													   <tr>
+														 <td>Banner Design</td>
+														 <td>100</td>
+													  </tr>
+													  
+												 </table>
+												</button>
+											</figcaption>
+										</figure>
+									</a>
+								</section> <!-- end of section-->
+							</div> <!-- end of col-md -4-->							
+						</div><!-- end of row-->
+			       </div>
+			  </div> 
+		 </div><!--[END OF OURSERVICES PAGE]-->
+		   
+		   
+		
+		<div class="protfolio_page_agea section_padding " id="protfolio_page_agea" >
+	        <div class="aboutus_page_area_bg"></div>
+			<div class="cotainer">
+				<div class="row">
+					 <div class="page_title text-center wow flip ">
+						 <div class="page_main_title col-md-12 ">
+							<h2>WE HAVE DISCOVERED</h2>
+						 </div>
+						 <div class="page_subtitle  col-md-12">
+							<span class="blue_text">Big</span> Collection Of <span class="yellow_text">Previous</span> Projeccts
+						 </div>
+					 </div>	
+				</div>			
+			</div>			
+			<div class="protpholio_type text-center">			 
+				<div class="cotainer ">		 
+					<div class="row"> 	 
+						<div class="col-md-3 col-sm-3 wow  bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img class=""src="images/img-1.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-2.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-3.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-4.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-5.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-6.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-7.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-8.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-8.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-8.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-8.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+						<div class="col-md-3 col-sm-3 wow bounceInLeft"><!--START OF DIFFERENT TYPE OF PROTPHOLIO-->
+						   <div class="nd-wrap nd-style-3">
+							   <img src="images/img-8.jpg" alt="">
+								<div class="nd-content">
+									<div class="nd-content_inner">
+										<div class="nd-content_inner1">
+											<h3 class="nd-title"><span>AN AWESOME LOGO DESIGN</span></h3>
+											<span class="nd-icon">
+												<span class="fa fa-shopping-cart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-heart fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-link fa-fw"></span>
+											</span>
+											<span class="nd-icon">
+												<span class="fa fa-sliders fa-fw"></span>
+											</span>
+										</div>					
+									</div>				
+								</div>
+							</div>
+						</div><!-- END DIFFERENT TYPE OF PROTPHOLIO-->
+					</div> 	 
+				</div> 		
+			</div>	
+		</div> 	
+			    
+				
+		
+        <div class="reservation_area section_padding" id="reservation_area"><!--[RESERVATION ]-->
+	        <div data-velocity="-.4" class="reservation_area_bg paralax_bg"></div>
+	            <div class="cotainer">
+	                <div class="row">
+						<div class="page_title_white text-center wow flip  ">
+							 <div class="page_main_title_white col-md-12 ">
+								<h2>WE ARE CERTIFIED</h2>
+							 </div>
+							 <div class="page_subtitle_white col-md-12 ">
+								<span class="blue_text">Feedback</span>  Of <span class="yellow_text"> Previous</span> clients
+							 </div>
+					    </div>
+					</div>	
+			        <div class="row">
+                        <div class="col-md-8 col-md-offset-2 wow bounceInLeft">
+			                <div class="reservation_list text-center">
+								 <div id="reservation-carousel" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<div class="single_reservation_item">
+											   <h2>Mr.abul modon</h2>
+											   <p>Lorem Ipsum is simply dummy text of the printing
+											    and typesetting industry. Lorem Ipsum has been the 
+											    industry's standard dummy text ever since the 1500s,
+												when an unknown printer took a galley of type</p>
+												
+												<p>Lorem Ipsum is simply dummy text of the printing
+											    and typesetting industry. Lorem Ipsum has been the 
+											    industry's standard dummy text ever since the 1500s,
+												when an unknown printer took a galley of type</p>
+												<p class="reservation_author">abc,bangladesh</p>
+											</div>
+										</div>
+										<div class="item">
+											 <div class="single_reservation_item">
+											   <h2>Mr.mofij modon</h2>
+											   <p>Lorem Ipsum is simply dummy text of the printing
+											    and typesetting industry. Lorem Ipsum has been the 
+											    industry's standard dummy text ever since the 1500s,
+												when an unknown printer took a galley of type</p>
+												
+												<p>Lorem Ipsum is simply dummy text of the printing
+											    and typesetting industry. Lorem Ipsum has been the 
+											    industry's standard dummy text ever since the 1500s,
+												when an unknown printer took a galley of type</p>
+												<p class="reservation_author">abc,bangladesh</p>
+											</div>
+								        </div>
+									</div>
+								</div>		
+							</div>
+						</div>		
+		            </div>
+		        </div>
+	    </div>
+
+
+        <div class="contact_us_page section_padding"id="contact_uspage"><!--[CONTACT US PAGE]-->
+		   <div class="cotainer">
+				<div class="page_title text-center wow flip ">
+					 <div class="page_main_title col-md-12">
+						<h2>GET IN TOUCH</h2>
+					 </div>
+					 <div class="page_subtitle col-md-12">
+						<span class="blue_text">Always</span>  ready to  <span class="yellow_text">  support  </span>anyone
+					 </div>
+				</div>
+				<div class="contact_us_form">
+					<div class="row">
+						<div class="col-lg-8 col-sm-8 wow bounceInLeft">
+							<div class="boxed-grey">
+									<form id="contact-form">
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label for="name">
+														Name</label>
+													<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+												</div>
+												<div class="form-group">
+													<label for="email">
+														Email Address</label>
+													<div class="input-group">
+														<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+														</span>
+														<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+												</div>
+												
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<div class="form-group">
+													<label for="name">
+														Message</label>
+													<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+														placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12 col-sm-12">
+												<button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+													Send Message</button>
+											</div>
+										</div>
+									</form>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-4 wow bounceInRight">
+							<div class="widget-contact">
+								<h5>Main Office</h5>
+								
+								<address>
+								  <strong> sdakdn dsad, Inc.</strong><br>
+								  Tower 795 Folsom Ave, hfdjskhf sfdksf 600<br>
+								  Dhaka, CA 94107<br>
+								  <abbr title="Phone">P:(123) 456-7890
+								</address>
+								<address>
+								  <strong>Email</strong><br>
+								  <a class="wow tada" style="color:#000;text-decoration:none;"href="mailto:#">email.name@example.com</a>
+								</address>	
+							</div>	
+						</div>
+					</div>	
+				</div>
+			</div>	  
+	    </div> 
+		
+		
+		
+		
+		
+        <div class="footter_area text-center "><!--[FOOTTER]-->
+		   <div class="cotainer">
+		      <div class="row">
+			      <div class="col-md-4 col-sm-4 wow bounceInLeft">
+				      <div class="footter_widget">
+					     <h2 class="section_title ">Get The Best Service </h2>
+						 <p>Lorem Ipsum is simply dummy text of the printing
+						and typesetting industry. Lorem Ipsum has been the 
+						industry's standard dummy text ever since the 1500s,
+						when an unknown printer took a galley of type</p>
+					  </div>
+				  </div>
+				  <div class="col-md-2  col-sm-2 col-md-offset-1 col-sm-offset-1 wow bounceInUp">
+				    <h2 class="section_title ">Opening Hour </h2>
+						 <p><strong>Mon-Thu:</strong> 7:00am-8:00pm <br/>
+                         <strong>Fri-Sun: </strong> 7:00am-10:00pm</p>
+						 
+						 <div class="footter_cards">
+						    <i class="fa fa-cc-amex"></i>
+							<i class="fa fa-cc-discover"></i>
+							<i class="fa fa-cc-visa"></i>
+							<i class="fa fa-cc-paypal"></i>
+						 </div>
+				  
+				  </div>
+				  <div class="col-md-2  col-sm-2 col-md-offset-2 col-sm-offset-2 wow bounceInRight ">
+				      <h2 class="section_title ">Our Location </h2>
+						 <p>1211th  Street dhaka<br/>128 sdad kdskds</p>
+				        
+						<div class="footter_social_icon">
+						    <a href=""><i class="fa fa-facebook-square"></i></a>
+							<a href=""><i class="fa fa-twitter-square"></i></a>
+							<a href=""><i class="fa fa-youtube-square"></i></a>
+							 <a href=""><i class="fa fa-linkedin-square"></i></a>
+						</div>
+				  </div>
+			  </div>
+		   </div>
+		</div>
+		
+		
+
+
+  		
+						
+						
+						 
+						
+						  
+			 			 
+						 
+						 
+            	  
+	   	
+				 
+		    
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/jquery.sticky.js"></script>
+		<script src="js/jquery.scrolly.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/wow.min.js"></script>
+    </body>
+	
+	<script>
+			(function() {
+	
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
+		</script>
+		<script>
+              new WOW().init();
+        </script>
+</html>
